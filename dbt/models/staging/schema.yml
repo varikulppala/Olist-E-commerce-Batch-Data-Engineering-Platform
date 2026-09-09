@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model for customer data from the Databricks Silver layer."
+
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: customer_unique_id
+        description: "Unique identifier associated with the customer."
+        data_tests:
+          - not_null

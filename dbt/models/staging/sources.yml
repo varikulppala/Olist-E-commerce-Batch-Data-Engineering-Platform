@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: silver
+    description: "Cleaned and validated Silver layer managed by Databricks Delta Lake."
+    database: workspace
+    schema: silver
+
+    tables:
+      - name: customers
+      - name: geolocation
+      - name: order_items
+      - name: order_payments
+      - name: order_reviews
+      - name: orders
+      - name: product_category_translation
+      - name: products
+      - name: sellers
+
+  - name: gold
+    description: "Curated Gold layer created in Databricks."
+    database: workspace
+    schema: gold
+
+    tables:
+      - name: fact_reviews

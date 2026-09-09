@@ -1,0 +1,7 @@
+relationship,invalid_records
+orders_to_customers,0
+order_items_to_orders,0
+order_items_to_products,0
+order_items_to_sellers,0
+payments_to_orders,0
+reviews_to_orders,0

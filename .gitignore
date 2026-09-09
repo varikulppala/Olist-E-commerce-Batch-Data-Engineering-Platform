@@ -1,0 +1,58 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# AWS / credentials / secrets
+.aws/
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Databricks local configuration
+.databricks/
+
+# Apache Superset local/runtime files
+superset_config_local.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data
+data/
+raw/
+processed/
+*.csv
+*.parquet
+*.json
+
+# Keep project documentation reports
+!docs/*.csv
