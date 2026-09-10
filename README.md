@@ -8,6 +8,8 @@ The platform processes the Brazilian Olist e-commerce dataset through a layered 
 
 ## Architecture
 
+![System Architecture](screenshots/System%20Architecture.png)
+
 ```text
 Olist E-commerce Dataset
           |
