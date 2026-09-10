@@ -52,7 +52,11 @@ raw/
 processed/
 *.csv
 *.parquet
-*.json
 
 # Keep project documentation reports
 !docs/*.csv
+# AWS Lambda deployment artifacts
+aws/lambda/*.zip
+
+# Local Apache Superset Docker environment
+superset/
